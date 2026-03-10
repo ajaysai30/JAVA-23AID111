@@ -1,3 +1,5 @@
+/*Q1. Create a class Student with private variables name and marks.
+Use getter and setter methods to access and modify the values. Print the student details.*/
 class Student{
     private String name;
     public int _class;
