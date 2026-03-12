@@ -1,0 +1,25 @@
+/*21. Create class Shape with method draw().
+Override it in Circle and Rectangle.*/
+class Shape{
+   void draw(){
+        System.out.println("drawing shape");
+    }
+}
+class Circle extends Shape{
+    void draw(){
+        System.out.println("Drawing circle");
+    }
+}
+class Rectangle extends Shape{
+    void draw(){
+        System.out.println("Drawing Rectangle");
+    }
+}
+class Main{
+    public static void main(String[] args){
+        Shape s1 = new Circle();
+        Shape s2 = new Rectangle();
+        s1.draw();
+        s2.draw();
+    }
+}
